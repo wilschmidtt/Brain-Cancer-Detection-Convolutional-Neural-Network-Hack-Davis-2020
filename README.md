@@ -1,12 +1,9 @@
-Still in process of creating this repo
-
 # Brain Cancer Detection Convolutional Neural Network - HackDavis 2020
 ![Image](Images/catalog.png)
 #### The Event 
 UC Davis's Premir Hack-A-Thon for social good! On January 18-19, over 600 students, hackers, and creators will came together for 24 hours of hacking. For the 5th year in a row, the most talented students in California come together to address the world’s most pressing issues. Participants are able to build projects that address any social good initiatives.
 #### Team's Solution
-Build and train a Convolutional Neural Network to detect if brain scans show signs of a malignant tumor. 
-[Project Website](https://devpost.com/software/ml-diagnose)
+Build and train a Convolutional Neural Network to detect if brain scans show signs of a malignant tumor. [View Project Website Here](https://devpost.com/software/ml-diagnose)
 
 ### Prerequisites
 * Anaconda (Python 3.7 Version)
@@ -35,7 +32,9 @@ Build and train a Convolutional Neural Network to detect if brain scans show sig
 ## Authors
 
 * **William Schmidt** - [Wil's LikedIn](https://www.linkedin.com/in/william-schmidt-152431168/)
-* 
+* **Danial Khan** - [Danial's LikedIn](https://www.linkedin.com/in/danial-khan-98415b18b/)
+* **Matthew Meer** - [Matt's LikedIn](https://www.linkedin.com/in/matthew-meer-8356b572/), [Matt's GitHub](https://github.com/meerkat1293?tab=repositories)
+* **Awen Li** - [Awen's GitHub](https://github.com/BabyMochi)
 
 ## Acknowledgments
 
