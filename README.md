@@ -23,7 +23,6 @@ Build and train a Convolutional Neural Network to detect if brain scans show sig
 * Finally, the user will need to obtain an image of a brain scan in question. How to go about obtaining this image is up to the user's disgression. The image can be of any format. Once obtained, save the image to a desired directory. The line of code within the program used to make a prediction about the image is as follows: `user_data = test_datagen.flow_from_directory('/content/drive/My Drive/Brain Tumor CNN/User-Data/test', target_size = (64, 64), batch_size = 1, class_mode = 'binary')`. As can be seen, the image that I used was located inside of my Google Drive. This directory will need to be changed to match the directory of the user's image.
 * Once the program is run, the user can expect to see one of two messages: 
   1) The convolutional neural network predicts that that this immage doesn't show signs of hemorrhage.
-  OR 
   2) The convolutional neural network predicts that this image shows signs of a brain-hemorrhage!
 
 ## Final Thoughts
