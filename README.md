@@ -6,18 +6,15 @@ UC Davis's Premir Hack-A-Thon for social good! On January 18-19, over 600 studen
 Build and train a Convolutional Neural Network to detect if brain scans show signs of cancer. [View Project Website Here](https://devpost.com/software/ml-diagnose)
 
 ### Prerequisites
-* Anaconda (Python 3.7 Version)
-  - [Anaconda Instillation Instructions](https://docs.anaconda.com/anaconda/install/)
-  - Chosing to use Anaconda is optional; however, the Spyder environment included is very useful for Machine Learning projects
+* Python 3.7
 
-## Libraries to Install
+## Libraries
 * keras - neural network library
-  - `conda install -c conda-forge keras`
 
-## Running the tests
+## Running the Program
 
 * First, download the files titled brain_tumor_model.json and brain_tumor_model.h5 and save them to a desired directory.
-* Next, open Anaconda, launch Spyder (used version 3.3.6 to create this program), and run the program titled: brain_tumor_prediction_regression.py
+* Next, run the program titled: brain_tumor_prediction_regression.py
   - NOTE: There is another file titled Brain_Hemorrhage_CNN.py. This file contains much of the same code as brain_tumor_prediction_regression.py; however, this is the module that was used to train the CNN, and running it will take a significant amount of time. The regression equation has been exported to the brain_tumor_prediction_regression.py file, so this one will be much quicker to run.
 * Next, user will need to change the program lines containing the directories of the .json and .h5 files that were used to store the regression equation. The line used to open the .json file looks as follows: `json_file = open('/content/drive/My Drive/Brain Tumor CNN/brain_tumor_model.json', 'r')`. As you can see, I had this file saved to a folder in my Google Drive; nevertheless, the user will have to change the specified directory to match that of where the .json file is located for them. Next, the code used to import the .h5 file is as follows: `loaded_model.load_weights("/content/drive/My Drive/Brain Tumor CNN/brain_tumor_model.h5")`. This too will need to be changed to match the directory that the user saved the .h5 file in.
 * Finally, the user will need to obtain an image of a brain scan in question. How to go about obtaining this image is up to the user's disgression. The image can be of any format. Once obtained, save the image to a desired directory. The line of code within the program used to make a prediction about the image is as follows: `user_data = test_datagen.flow_from_directory('/content/drive/My Drive/Brain Tumor CNN/User-Data/test', target_size = (64, 64), batch_size = 1, class_mode = 'binary')`. As can be seen, the image that I used was located inside of my Google Drive. This directory will need to be changed to match the directory of the user's image.
