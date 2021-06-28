@@ -1,5 +1,4 @@
 # Brain Cancer Detection Convolutional Neural Network - HackDavis 2020
-![Image](Image/brain_scan.png)
 #### The Event 
 UC Davis's Premir Hack-A-Thon for social good! On January 18-19, over 600 students, hackers, and creators came together for 24 hours of hacking. For the 5th year in a row, the most talented students in California come together to address the world’s most pressing issues. Participants are able to build projects that address any social good initiatives.
 #### Team's Solution
@@ -27,9 +26,9 @@ Build and train a Convolutional Neural Network to detect if brain scans show sig
 
 ## Authors
 
-* **William Schmidt** - [Wil's LikedIn](https://www.linkedin.com/in/william-schmidt-152431168/)
-* **Danial Khan** - [Danial's LikedIn](https://www.linkedin.com/in/danial-khan-98415b18b/), [Danial's GitHub](https://github.com/danialk1?tab=repositories)
-* **Matthew Meer** - [Matt's LikedIn](https://www.linkedin.com/in/matthew-meer-8356b572/), [Matt's GitHub](https://github.com/meerkat1293?tab=repositories)
+* **William Schmidt** - [Wil's LinkedIn](https://www.linkedin.com/in/william-schmidt-152431168/)
+* **Danial Khan** - [Danial's LinkedIn](https://www.linkedin.com/in/danial-khan-98415b18b/), [Danial's GitHub](https://github.com/danialk1?tab=repositories)
+* **Matthew Meer** - [Matt's LinkedIn](https://www.linkedin.com/in/matthew-meer-8356b572/), [Matt's GitHub](https://github.com/meerkat1293?tab=repositories)
 * **Awen Li** - [Awen's GitHub](https://github.com/BabyMochi)
 
 ## Acknowledgments
