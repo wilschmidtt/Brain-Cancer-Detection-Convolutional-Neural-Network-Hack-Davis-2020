@@ -22,7 +22,7 @@ Build and train a Convolutional Neural Network to detect if brain scans show sig
   2) The convolutional neural network predicts that this image shows signs of a brain-hemorrhage!
 
 ## Final Thoughts
-* After training the model, our team was able to get it to classify images in the test set with **99.12% accuracy**. The model was trained using the free Google Colaboratory service and their remote GPU, but the time required to train this model was still substantial. If the user has access to more computing power, then this model can be trained with more data and epochs, and reach even higher accuracy. The file used to train the neurl network is titled "Brain_Hemorrhage_CNN.py", and users can feel free to run this program on their own GPU, tune the parameters differently, and use any training data desired.
+* The model was trained using the free Google Colaboratory service and their remote GPU, but the time required to train this model was still substantial. If the user has access to more computing power, then this model can be trained with more data and epochs, and reach even higher accuracy. The file used to train the neurl network is titled "Brain_Hemorrhage_CNN.py", and users can feel free to run this program on their own GPU, tune the parameters differently, and use any training data desired.
 
 ## Authors
 
