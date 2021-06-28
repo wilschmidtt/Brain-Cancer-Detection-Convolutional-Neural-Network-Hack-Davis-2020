@@ -6,7 +6,7 @@ Build and train a Convolutional Neural Network to detect if brain scans show sig
 
 ### Prerequisites
 * Python 3.7
-
+ 
 ## Libraries
 * keras - neural network library
 
